@@ -96,6 +96,90 @@ main p {
   text-align: justify;
 }
 
+section {
+  padding: 50px 70px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+main .secondary {
+  background: #f8f8f8;
+}
+
+main .secondary h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+main .secondary h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+  text-align: center;
+}
+.grid-card-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+.card-body {
+  padding: 30px;
+}
+
+main .secondary h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+
+main .secondary p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
+}
+
+main .secondary h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: #272044;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+button {
+  padding: 16px;
+  background: #5e27e7;
+  border: none;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  line-height: 14px;
+  font-weight: 700;
+}
+
 footer {
   background-image:
     linear-gradient(rgba(20, 25, 58, 0.6), rgba(20, 25, 58, 0.5)),
@@ -110,12 +194,6 @@ footer {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   gap: 50px;
-}
-
-section {
-  padding: 50px 70px;
-  margin: 0 auto;
-  max-width: 100%;
 }
 
 footer h3 {
