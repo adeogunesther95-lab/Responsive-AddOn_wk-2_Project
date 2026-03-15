@@ -257,9 +257,6 @@ footer a {
     font-size: 12px;
     padding: 12px 24px;
   }
-  section {
-    padding: 60px;
-  }
   .grid-footer {
     grid-template-columns: 1fr;
     gap: 20px;
